@@ -9,14 +9,17 @@
       name="description"
       content="A website offering digital solutions and services."
     />
-    <meta name="keywords" content="digital, solutions, services, web
-    development, design">
+    <meta
+      name="keywords"
+      content="digital, solutions, services, web
+    development, design"
+    />
     <!-- Link to Favicon -->
     <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
     <!-- Link to CSS Stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
     <!-- Link to JavaScript File -->
-    <script src="script.js" defer></script>
+    <script src="assets/js/script.js" defer></script>
     <!-- Font Awesome for social icons -->
     <link
       rel="stylesheet"
@@ -53,7 +56,7 @@
           <span><i class="fas fa-video"></i> Video Editing</span>
           <span><i class="fas fa-magic"></i> Photo Editing</span>
         </div>
-        <a href="#services" class="btn">Explore Services</a>
+        <a href="#services" class="explore-btn">Explore Services</a>
       </div>
     </section>
 
@@ -224,161 +227,95 @@
       <div class="container">
         <h2>Our Portfolio</h2>
         <p>Check out some of our recent projects.</p>
-        <div class="portfolio-slider">
-          <div class="portfolio-track">
-            <!-- Project 1 -->
-            <div class="portfolio-card">
-              <img
-                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
-                alt="Sample Project"
-              />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project1"
-                  target="_blank"
-                  class="portfolio-title"
-                  >Project One</a
-                >
-                <p>Modern business website for a local startup.</p>
-              </div>
+
+        <div class="portfolio-grid">
+          <!-- Project 1 -->
+          <div class="portfolio-card">
+            <img src="project1.jpg" alt="Project 1" />
+            <div class="portfolio-info">
+              <a
+                href="https://example.com/project1"
+                target="_blank"
+                class="portfolio-title"
+              >
+                Project One
+              </a>
+              <p>Modern business website for a local startup.</p>
             </div>
-            <!-- Project 2 -->
-            <div class="portfolio-card">
-              <img src="project2.jpg" alt="Project 2" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project2"
-                  target="_blank"
-                  class="portfolio-title"
-                  >Creative Portfolio</a
-                >
-                <p>Personal portfolio for a digital artist.</p>
-              </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="portfolio-card">
+            <img src="project2.jpg" alt="Project 2" />
+            <div class="portfolio-info">
+              <a
+                href="https://example.com/project2"
+                target="_blank"
+                class="portfolio-title"
+              >
+                Creative Portfolio
+              </a>
+              <p>Personal portfolio for a digital artist.</p>
             </div>
-            <!-- Project 3 -->
-            <div class="portfolio-card">
-              <img src="project3.jpg" alt="Project 3" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project3"
-                  target="_blank"
-                  class="portfolio-title"
-                  >E-commerce App</a
-                >
-                <p>Mobile app for a boutique online store.</p>
-              </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="portfolio-card">
+            <img src="project3.jpg" alt="Project 3" />
+            <div class="portfolio-info">
+              <a
+                href="https://example.com/project3"
+                target="_blank"
+                class="portfolio-title"
+              >
+                E-commerce App
+              </a>
+              <p>Mobile app for a boutique online store.</p>
             </div>
-            <!-- Project 4 -->
-            <div class="portfolio-card">
-              <img src="project4.jpg" alt="Project 4" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project4"
-                  target="_blank"
-                  class="portfolio-title"
-                  >Brand Identity</a
-                >
-                <p>Logo and branding for a new cafe.</p>
-              </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="portfolio-card">
+            <img src="project4.jpg" alt="Project 4" />
+            <div class="portfolio-info">
+              <a
+                href="https://example.com/project4"
+                target="_blank"
+                class="portfolio-title"
+              >
+                Brand Identity
+              </a>
+              <p>Logo and branding for a new cafe.</p>
             </div>
-            <!-- Project 5 -->
-            <div class="portfolio-card">
-              <img src="project5.jpg" alt="Project 5" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project5"
-                  target="_blank"
-                  class="portfolio-title"
-                  >SEO Campaign</a
-                >
-                <p>SEO optimization for a tech blog.</p>
-              </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="portfolio-card">
+            <img src="project5.jpg" alt="Project 5" />
+            <div class="portfolio-info">
+              <a
+                href="https://example.com/project5"
+                target="_blank"
+                class="portfolio-title"
+              >
+                SEO Campaign
+              </a>
+              <p>SEO optimization for a tech blog.</p>
             </div>
-            <!-- Project 6 -->
-            <div class="portfolio-card">
-              <img src="project6.jpg" alt="Project 6" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project6"
-                  target="_blank"
-                  class="portfolio-title"
-                  >Promo Video</a
-                >
-                <p>Animated promo video for a product launch.</p>
-              </div>
-            </div>
-            <!-- Duplicate for seamless loop -->
-            <div class="portfolio-card">
-              <img src="project1.jpg" alt="Project 1" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project1"
-                  target="_blank"
-                  class="portfolio-title"
-                  >Project One</a
-                >
-                <p>Modern business website for a local startup.</p>
-              </div>
-            </div>
-            <div class="portfolio-card">
-              <img src="project2.jpg" alt="Project 2" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project2"
-                  target="_blank"
-                  class="portfolio-title"
-                  >Creative Portfolio</a
-                >
-                <p>Personal portfolio for a digital artist.</p>
-              </div>
-            </div>
-            <div class="portfolio-card">
-              <img src="project3.jpg" alt="Project 3" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project3"
-                  target="_blank"
-                  class="portfolio-title"
-                  >E-commerce App</a
-                >
-                <p>Mobile app for a boutique online store.</p>
-              </div>
-            </div>
-            <div class="portfolio-card">
-              <img src="project4.jpg" alt="Project 4" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project4"
-                  target="_blank"
-                  class="portfolio-title"
-                  >Brand Identity</a
-                >
-                <p>Logo and branding for a new cafe.</p>
-              </div>
-            </div>
-            <div class="portfolio-card">
-              <img src="project5.jpg" alt="Project 5" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project5"
-                  target="_blank"
-                  class="portfolio-title"
-                  >SEO Campaign</a
-                >
-                <p>SEO optimization for a tech blog.</p>
-              </div>
-            </div>
-            <div class="portfolio-card">
-              <img src="project6.jpg" alt="Project 6" />
-              <div class="portfolio-info">
-                <a
-                  href="https://example.com/project6"
-                  target="_blank"
-                  class="portfolio-title"
-                  >Promo Video</a
-                >
-                <p>Animated promo video for a product launch.</p>
-              </div>
+          </div>
+
+          <!-- Project 6 -->
+          <div class="portfolio-card">
+            <img src="project6.jpg" alt="Project 6" />
+            <div class="portfolio-info">
+              <a
+                href="https://example.com/project6"
+                target="_blank"
+                class="portfolio-title"
+              >
+                Promo Video
+              </a>
+              <p>Animated promo video for a product launch.</p>
             </div>
           </div>
         </div>
@@ -394,6 +331,26 @@
             <p>
               Over 50% of web traffic comes from mobile devices. Ensure your
               website is mobile-friendly!
+            </p>
+          </div>
+        </details>
+
+        <details class="trivia-details">
+          <summary><i class="fas fa-lightbulb"></i> Fun Fact!</summary>
+          <div class="trivia-content">
+            <p>
+              Websites with fast load times retain 70% more users. Speed is
+              king!
+            </p>
+          </div>
+        </details>
+
+        <details class="trivia-details">
+          <summary><i class="fas fa-lightbulb"></i> Quick Tip!</summary>
+          <div class="trivia-content">
+            <p>
+              Using clear call-to-action buttons increases conversions
+              dramatically.
             </p>
           </div>
         </details>
