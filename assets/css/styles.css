@@ -120,7 +120,7 @@ img {
   display: block;
 }
 
-/* Navbar Section */
+/* NAVBAR SECTION */
 .navbar {
   position: sticky;
   top: 0;
@@ -198,7 +198,7 @@ img {
   width: 100%;
 }
 
-/* Hero Section Styles */
+/* HERO SECTION */
 .hero {
   position: relative;
   overflow: hidden;
@@ -372,7 +372,7 @@ img {
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1.5rem;
   margin-bottom: 2rem;
-  align-items: stretch; /* ✅ ensures equal height across rows */
+  align-items: stretch; /* ensures equal height across rows */
 }
 
 .about-values div {
@@ -382,7 +382,7 @@ img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   transition: transform var(--transition-speed), box-shadow var(--transition-speed);
 
-  /* ✅ Flexbox for equalized layout */
+  /* Flexbox for equalized layout */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -431,7 +431,7 @@ img {
   margin-top: 1.5rem;
 }
 
-/* Services Section */
+/* SERVICES SECTION */
 .services {
   background: var(--bg-alt);
   padding: 4rem 2rem;
@@ -553,7 +553,7 @@ img {
   opacity: 1;
 }
 
-/* Portfolio Section */
+/* PORTFOLIO SECTION */
 .portfolio {
   padding: 60px 20px;
   text-align: center;
@@ -915,7 +915,7 @@ footer::before {
   background: var(--accent-hover);
 }
 
-/* Media Queries - Responsive CSS */
+/* MEDIA QUERIES - RESPONSIVE CSS */
 
 /* Small Devices - Mobile Portrait (up to 600px) */
 @media (max-width: 600px) {
